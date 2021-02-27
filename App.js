@@ -6,6 +6,7 @@ import HomeScreen from "./src/screens/Home";
 import feed from "./assets/data/feed";
 import SearchResultScreen from "./src/screens/SearchResults";
 import DestinationSearch from "./src/screens/DestinationSearch";
+import GuestScreen from "./src/screens/Guests";
 
 const post1 = feed[0];
 
@@ -17,7 +18,8 @@ export default function App() {
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
         {/* <SearchResultScreen /> */}
-        <DestinationSearch />
+        {/* <DestinationSearch /> */}
+        <GuestScreen />
       </SafeAreaView>
     </>
   );
