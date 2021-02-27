@@ -27,14 +27,14 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 16,
-    fontWeight: "bold",
+    fontWeight: "600",
   },
   searchButton: {
     flexDirection: "row",
     backgroundColor: "#fff",
     height: 60,
-    marginHorizontal: 15,
-    width: Dimensions.get("screen").width - 30,
+    marginHorizontal: 20,
+    width: Dimensions.get("screen").width - 40,
     borderRadius: 30,
     justifyContent: "center",
     alignItems: "center",
@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
   },
   searchButtonText: {
     fontSize: 16,
-    fontWeight: "bold",
+    fontWeight: "600",
+    marginLeft: 10,
   },
 });
 

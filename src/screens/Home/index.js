@@ -8,7 +8,7 @@ const HomeScreen = () => {
   return (
     <View>
       <Pressable style={styles.searchButton}>
-        <Fontisto name="search" size={25} color={"#F15454"} />
+        <Fontisto name="search" size={20} color={"#F15454"} />
         <Text style={styles.searchButtonText}>Where are you going?</Text>
       </Pressable>
       <ImageBackground
